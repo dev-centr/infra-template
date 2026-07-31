@@ -1,0 +1,10 @@
+= Email DNS roles
+:description: Template defaults for Resend subdomain isolation.
+
+Default exported hostnames (replace `domain` via config):
+
+* Sending: `updates.<domain>`
+* Return-Path: `send.<domain>`
+* Tracking: `links.<domain>`
+
+Human mail: ZeptoMail — do not use Resend SMTP for Gmail send-as. See Business Bootstrap email decision matrix.

@@ -1,0 +1,11 @@
+= Usage
+:description: How to instantiate this template for a new organization.
+
+. Create `https://github.com/<org>/infra` (empty).
+. Copy this template's files; set `name` in `Pulumi.yaml` / `package.json`.
+. `pnpm install`
+. `pulumi stack init <org>-prod`
+. `pulumi config set domain <apex>` and `cloudflareZoneId`
+. `pulumi config set cloudflare:apiToken --secret …`
+. Add Antora source to the org docs playbook (`start_path: docs`).
+. Preview / up; then paste ESP verification records into `src/index.ts`.

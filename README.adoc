@@ -1,0 +1,21 @@
+= Org infra template
+
+Reusable Pulumi (TypeScript) + Antora docs skeleton for a GitHub organization's central `infra` repository.
+
+Copy or use as the source when DevCentr bootstraps an org-level infrastructure repo.
+
+== Layout
+
+----
+Pulumi.yaml
+package.json
+tsconfig.json
+src/index.ts
+docs/
+README.adoc
+.gitignore
+----
+
+== Guidance
+
+Strategic email/vendor choices: link:https://github.com/dev-centr/business-bootstrap[business-bootstrap].

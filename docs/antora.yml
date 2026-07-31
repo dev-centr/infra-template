@@ -1,0 +1,5 @@
+name: infra-template
+title: Infra Template
+version: ~
+nav:
+  - modules/ROOT/nav.adoc

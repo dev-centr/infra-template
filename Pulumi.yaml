@@ -1,0 +1,7 @@
+name: org-infra
+runtime:
+  name: nodejs
+  options:
+    typescript: true
+description: Org-level infrastructure template (Cloudflare DNS, email deliverability)
+main: src/index.ts

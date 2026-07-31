@@ -1,0 +1,6 @@
+= Org infra template
+:description: Reusable Pulumi + Antora layout for organization-level infrastructure repos.
+
+Clone or scaffold from this repository when creating an org `infra` repo. Replace `domain` config, add vendor DNS records from Resend/ZeptoMail UIs, and wire the Antora component into the org docs playbook.
+
+See xref:business-bootstrap:explanation/org-infra-repo-pattern.adoc[Org infra repo pattern].

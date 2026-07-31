@@ -1,0 +1,12 @@
+*
+!*/
+!/.gitignore
+!/.gitattributes
+!/README.adoc
+!/Pulumi.yaml
+!/package.json
+!/tsconfig.json
+!/src/
+!/src/**
+!/docs/
+!/docs/**
