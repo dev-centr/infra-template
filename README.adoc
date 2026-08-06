@@ -1,10 +1,36 @@
+ifndef::env-github[:icons: font]
+:toc: preamble
+:toclevels: 2
+:sectanchors:
+
+ifndef::env-github[]
+image:https://img.shields.io/github/contributors/dev-centr/infra-template.svg?style=for-the-badge[Contributors,link=https://github.com/dev-centr/infra-template/graphs/contributors]
+image:https://img.shields.io/github/forks/dev-centr/infra-template.svg?style=for-the-badge[Forks,link=https://github.com/dev-centr/infra-template/network/members]
+image:https://img.shields.io/github/stars/dev-centr/infra-template.svg?style=for-the-badge[Stars,link=https://github.com/dev-centr/infra-template/stargazers]
+image:https://img.shields.io/github/issues/dev-centr/infra-template.svg?style=for-the-badge[Issues,link=https://github.com/dev-centr/infra-template/issues]
+endif::[]
+
+ifdef::env-github[]
+image:https://img.shields.io/github/contributors/dev-centr/infra-template.svg?style=for-the-badge[Contributors]
+image:https://img.shields.io/github/forks/dev-centr/infra-template.svg?style=for-the-badge[Forks]
+image:https://img.shields.io/github/stars/dev-centr/infra-template.svg?style=for-the-badge[Stars]
+image:https://img.shields.io/github/issues/dev-centr/infra-template.svg?style=for-the-badge[Issues]
+endif::[]
+
 = Org infra template
+
+Reusable Pulumi + Antora skeleton for org infra repos.
+
+link:https://github.com/dev-centr/infra-template/issues[Report Bug] ·
+link:https://github.com/dev-centr/infra-template/issues[Request Feature]
+
+== About The Project
 
 Reusable Pulumi (TypeScript) + Antora docs skeleton for a GitHub organization's central `infra` repository.
 
 Copy or use as the source when DevCentr bootstraps an org-level infrastructure repo.
 
-== Layout
+=== Layout
 
 ----
 Pulumi.yaml
@@ -16,6 +42,21 @@ README.adoc
 .gitignore
 ----
 
-== Guidance
-
 Strategic email/vendor choices: link:https://github.com/dev-centr/business-bootstrap[business-bootstrap].
+
+== Installation
+
+Copy this template into your org's `infra` repository, then:
+
+[source,bash]
+----
+pnpm install
+pulumi up
+----
+
+== Contact
+
+DevCentr.org — support@devcentr.org
+
+* Project: https://github.com/dev-centr/infra-template
+* Site: https://devcentr.org
